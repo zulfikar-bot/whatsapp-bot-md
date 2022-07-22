@@ -9,7 +9,7 @@
 	},
 	"author": "",
 	"license": "ISC",
-	"devDependencies": {
+	"dependencies": {
 		"@adiwajshing/baileys": "git+https://github.com/adiwajshing/Baileys.git",
 		"axios": "^0.27.2",
 		"browser-id3-writer": "^4.4.0",
