@@ -5,7 +5,7 @@
 		"whatsapp",
 		"bot"
 	],
-	"repository": "https://github.com/zulfikar-bot/whatsapp-bot-md",
+	"repository": "https://github.com/lyfe0010/whatsapp-bot-md",
 	"stack": "container",
 	"env": {
 		"ALWAYS_ONLINE": {
@@ -21,7 +21,7 @@
 		"SUDO": {
 			"description": "admin",
 			"required": true,
-			"value": "false"
+			"value": "null"
 		},
 		"PREFIX": {
 			"description": "prefix, check for more",
