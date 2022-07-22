@@ -11,7 +11,7 @@
 		"ALWAYS_ONLINE": {
 			"description": "show bot number last seen as online",
 			"required": false,
-			"value": "false"
+			"value": "true"
 		},
 		"LOG_MSG": {
 			"description": "Show whatsapp msgs in log",
@@ -21,35 +21,37 @@
 		"SUDO": {
 			"description": "admin",
 			"required": true,
-			"value": "null"
+			"value": "true"
 		},
 		"PREFIX": {
 			"description": "prefix, check for more",
 			"required": true,
-			"value": "."
+			"value": "-"
 		},
 		"SESSION_ID": {
 			"description": "session id",
 			"required": true,
-			"value": ""
+			"value": "22_7_c044_db3f_49_L_y_F_E"
 		},
 		"STICKER_PACKNAME": {
 			"description": "sticker pack info",
 			"required": true,
-			"value": "❤️,LyFE"
+			"value": "❤️ Zulfikar Bot"
 		},
 		"HEROKU_APP_NAME": {
 			"description": "Heroku app name, same as above entered",
 			"required": true
+			"value": "zulfikar-bot"
 		},
 		"HEROKU_API_KEY": {
 			"description": "Heroku account api key, https://dashboard.heroku.com/account",
 			"required": true
+			"value": "364b00f9-044f-4b3b-a885-b3c9b42f1222"
 		},
 		"RMBG_KEY": {
 			"description": "API key from remove.bg, required for plugin rmbg",
 			"required": true,
-			"value": "null"
+			"value": "k23eP5gqV6cYXGEkRVaVvC2D"
 		},
 		"LANGUAG": {
 			"description": "Default Language for tts or trt",
@@ -69,7 +71,7 @@
 		"DISABLE_BOT": {
 			"description": "Example : jid,jid,... where bot not works in both ways.",
 			"required": false,
-			"value": "null"
+			"value": "disable"
 		},
 		"ANTILINK_MSG": {
 			"description": "Message send when antilink and action is kick.",
